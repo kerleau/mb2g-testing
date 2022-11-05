@@ -1,13 +1,18 @@
 package guru.springframework;
     
+import static org.junit.Assert.assertEquals;
+
+import org.junit.Test;
+
 public class JavaHelloWorldTest {
 
-   public void testGetHello(){
+   @Test
+   public void getHellow(){
+      JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
 
-    JavaHelloWorld javaHelloWorld = new JavaHelloWorld();
-
-    assert("Hello World".equals(javaHelloWorld.getHello()));
-
+      assertEquals("Hello World", javaHelloWorld.getHello());
    }
+
+   
 }
     
