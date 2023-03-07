@@ -6,5 +6,6 @@ public class JavaHelloWorldTest {
 
     @Test
     public void testGetHello() {
+        System.out.println("Test NG 1 .....");
     }
 }
