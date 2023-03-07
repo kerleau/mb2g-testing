@@ -9,5 +9,7 @@ public class JUnit5Test {
 
     @Test
     void exampleTest() {
+    System.out.println("Performing test ...  777777 ");
     }
+
 }
